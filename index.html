@@ -1,0 +1,95 @@
+<!DOCTYPEhtml>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"> 
+<html lang="pt-br">
+<head>
+ <title>musicas</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script link="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script link="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+body {
+  background-color: orange;
+}
+</style>
+</html>
+
+
+<label for="nome">Nome:</label>
+<input type="text" oninput="mm(this.value)">	
+</input>
+<select id="musicas" onChange="update()">
+			<option value=>Forró</option>
+			<option value=>Eletronica</option>
+			<option value=>Trap</option>	
+		</select>
+		<type="text" id="value">
+		<type="text" id="text">
+<button type="button" onclick="nn()">enter</button>
+</div>
+
+<h1>Barões da Pisadinha
+</h1>
+<p>
+Os Barões da Pisadinha é uma banda musical brasileira de forró e tecnobrega formada em dezembro de 2015, na cidade de Heliópolis, na Bahia. O grande sucesso da banda é a música "Tá Rocheda"
+</p>
+
+<div class="container">
+    <img src="Barões.jpg" width="320" height="205" />
+</div>
+<h1>
+Eletronica
+</h1>
+<p>
+O gênero é caracterizado por batidas rápidas, próximas a 170 BPM. Incorporou elementos de culturas musicais como o dancehall, electro, funk, Hip-Hop, house, jazz, metal, pop, reggae, rock, techno e trance. Uma das principais vertentes da música eletrônica que emergiu no início da década de 1990.
+</p> 	
+<div class="container">
+    <img src="Música.png" width="320" height="205" />
+</div>
+<h1>
+Trap
+</h1>
+<p>
+Trap é um subgênero do rap que se originou na década de 2000 com DJ Paul no sul dos Estados Unidos. Ganhou popularidade em meados de 2007 com o surgimento de vários grupos de rap e rappers como Gucci Mane, OJ da Juiceman e produtores como Drumma Boy, Shawty Redd e DJ Zaytoven.
+</p>	
+<div class="container">
+    <img src="Trap.jpg" width="320" height="205" />
+</div>
+
+<body>
+<p>
+<div class="container">
+		<img src="Eu.jpg" width="320" height="205"/>
+</div>
+</p>		
+<h1> 
+Meu nome é Giovani atualmente fiz uma pagina sobre estilo musicais durante meu curso de analise é desenvolvimento de sistemas;
+</h1>
+		<script type="text/javascript">
+var kk;
+var gg;
+var hh;
+
+			function update() {
+				var select = document.getElementById('musicas');
+				var option = select.options[select.selectedIndex];
+
+				gg=document.getElementById('value').value = option.value;
+				hh=document.getElementById('text').value = option.text;
+			}
+
+			update();
+                       function mm(az){
+                           kk=az;
+                       }
+                        function nn(){
+                        window.alert(`Bem Vindo!`+`${kk}`);
+                         }
+                         function aa(){
+                        document.write(`Bem Vindo!`+`${hh}`);
+                         }
+		</script>
+		</body>
+</body>
+</html>
